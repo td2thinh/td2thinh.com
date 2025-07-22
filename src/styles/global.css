@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 @import "tailwindcss";
 @import "./typography.css";
 
@@ -5,22 +6,26 @@
 
 :root,
 html[data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
+  /* Catppuccin Latte */
+  --background: #eff1f5;
+  --foreground: #4c4f69;
+  --accent: #8839ef;
+  --muted: #ccd0da;
+  --border: #bcc0cc;
 }
 
 html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60;
-  --border: #ab4b08;
+  /* Catppuccin Mocha */
+  --background: #1e1e2e;
+  --foreground: #cdd6f4;
+  --accent: #cba6f7;
+  --muted: #45475a;
+  --border: #585b70;
 }
 
 @theme inline {
+  --font-mono: 'Source Code Pro', ui-monospace, monospace;
+  --font-serif: 'Source Serif 4', ui-serif, serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
@@ -40,6 +45,19 @@ html[data-theme="dark"] {
   body {
     @apply flex min-h-svh flex-col bg-background font-mono text-foreground selection:bg-accent/75 selection:text-background;
   }
+    /* New heading styles */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-semibold;
+  }
+
+  /* Ensure blog post headings use Domine */
+  .app-prose h1,
+  .app-prose h2,
+  .app-prose h3,
+  .app-prose h4 {
+    @apply font-serif font-semibold;
+  }
+  
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
@@ -55,7 +73,7 @@ html[data-theme="dark"] {
 }
 
 @utility max-w-app {
-  @apply max-w-3xl;
+  @apply max-w-4xl xl:max-w-5xl;
 }
 
 .active-nav {

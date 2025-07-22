@@ -5,16 +5,18 @@
   .app-prose {
     @apply prose;
 
-    h1,
+    h1 {
+      @apply font-serif;
+    }
     h2,
     h3,
     h4,
     th {
-      @apply mb-3 text-foreground;
+      @apply mb-3 text-foreground font-serif;
     }
 
     h3 {
-      @apply italic;
+      @apply italic font-serif;
     }
 
     p,
