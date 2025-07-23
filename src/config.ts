@@ -4,6 +4,7 @@ export const SITE = {
   profile: "https://td2thinh.com",
   desc: "A personal blog about random things.",
   title: "td2thinh is typing...",
+  ogImage: "og.png",
   lightAndDarkMode: true,
   postPerIndex: 5,
   postPerPage: 5,
