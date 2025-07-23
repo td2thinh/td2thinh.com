@@ -12,7 +12,7 @@ This is a personal blog and portfolio website built with [Astro](https://astro.b
 
 ## About Me
 
-I'm a passionate developer who loves creating things with code. This site is where I share my thoughts, experiences, and projects.
+I'm a Full Stack Engineer at [Callyope](https://www.callyope.com/). We are building a Copilot for Mental Health Professionals. I'm currently based in Paris. I'm hoping to start writing regularly about random stuff here.
 
 ## Technologies Used
 
