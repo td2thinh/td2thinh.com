@@ -16,6 +16,6 @@ description: "Learn how to speed up your Python dependency management using UV a
 canonicalURL: "https://td2thinh.com/blog/docker-multi-stage-uv-migration"
 ---
 
-![Post OG Image](/index.png)
+![Post OG Image](/posts/faster-python-dependency-management-with-uv-and-multi-stage-docker-builds/index.png)
 
 ## First h2
