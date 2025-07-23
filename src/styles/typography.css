@@ -118,4 +118,13 @@
       @apply rounded-sm border border-border px-0.5 py-px;
     }
   }
+  .app-prose {
+    @apply prose;
+    
+    /* Force text color inheritance */
+    p, strong, ol, ul, li, h1, h2, h3, h4, h5, h6, blockquote {
+      @apply text-foreground;
+    }
+  }
+
 }
