@@ -5,18 +5,16 @@
   .app-prose {
     @apply prose;
 
-    h1 {
-      @apply font-serif;
-    }
+    h1,
     h2,
     h3,
     h4,
     th {
-      @apply mb-3 text-foreground font-serif;
+      @apply mb-3 text-foreground;
     }
 
     h3 {
-      @apply italic font-serif;
+      @apply italic;
     }
 
     p,
@@ -118,13 +116,4 @@
       @apply rounded-sm border border-border px-0.5 py-px;
     }
   }
-  .app-prose {
-    @apply prose;
-    
-    /* Force text color inheritance */
-    p, strong, ol, ul, li, h1, h2, h3, h4, h5, h6, blockquote {
-      @apply text-foreground;
-    }
-  }
-
 }

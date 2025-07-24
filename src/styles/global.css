@@ -45,19 +45,6 @@ html[data-theme="dark"] {
   body {
     @apply flex min-h-svh flex-col bg-background font-mono text-foreground selection:bg-accent/75 selection:text-background;
   }
-    /* New heading styles */
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-serif font-semibold;
-  }
-
-  /* Ensure blog post headings use Domine */
-  .app-prose h1,
-  .app-prose h2,
-  .app-prose h3,
-  .app-prose h4 {
-    @apply font-serif font-semibold;
-  }
-  
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
@@ -85,3 +72,4 @@ html[data-theme="dark"] {
 :target {
   scroll-margin-block: 1rem;
 }
+
