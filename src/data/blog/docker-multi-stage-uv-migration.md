@@ -1,6 +1,6 @@
 ---
 title: Faster Python Dependency Management with UV and Multi-Stage Docker Builds
-author: td2thinh
+author: Thinh TRUONG
 pubDatetime: 2025-07-23T21:39:41Z
 slug: faster-python-dependency-management-with-uv-and-multi-stage-docker-builds
 featured: true
