@@ -12,7 +12,7 @@ export default async () => {
       type: "div",
       props: {
         style: {
-          background: "linear-gradient(135deg, #8839ef 0%, #eff1f5 100%)",
+          background: "linear-gradient(135deg, #cba6f7 0%, #eff1f5 100%)",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -82,8 +82,8 @@ export default async () => {
                       height: "100%",
                       opacity: 0.08,
                       background: `
-                                                radial-gradient(circle at 25px 25px, #8839ef 2px, transparent 2px),
-                                                radial-gradient(circle at 75px 75px, #8839ef 1px, transparent 1px)
+                                                radial-gradient(circle at 25px 25px, #cba6f7 2px, transparent 2px),
+                                                radial-gradient(circle at 75px 75px, #cba6f7 1px, transparent 1px)
                                             `,
                       backgroundSize: "50px 50px, 25px 25px",
                     },
@@ -101,8 +101,8 @@ export default async () => {
                       height: "100%",
                       opacity: 0.03,
                       background: `
-                                                linear-gradient(90deg, #8839ef 1px, transparent 1px),
-                                                linear-gradient(180deg, #8839ef 1px, transparent 1px)
+                                                linear-gradient(90deg, #cba6f7 1px, transparent 1px),
+                                                linear-gradient(180deg, #cba6f7 1px, transparent 1px)
                                             `,
                       backgroundSize: "60px 60px",
                     },
@@ -202,7 +202,7 @@ export default async () => {
                     style: {
                       fontFamily: '"Source Code Pro"',
                       fontSize: 28,
-                      color: "#8839ef",
+                      color: "#cba6f7",
                       fontWeight: 500,
                       lineHeight: 1.5,
                       maxWidth: "90%",

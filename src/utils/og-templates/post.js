@@ -12,11 +12,11 @@ export default async post => {
       type: "div",
       props: {
         style: {
-          background: "linear-gradient(135deg, #8839ef 0%, #eff1f5 100%)",
+          background: "linear-gradient(135deg, #cba6f7 0%, #eff1f5 100%)",
           width: "100%",
           height: "100%",
           display: "flex",
-          fontFamily: '"Source Serif 4", "Source Code Pro"',
+          fontFamily: 'Source Code Pro"',
           alignItems: "center",
           justifyContent: "center",
           position: "relative",
@@ -82,8 +82,8 @@ export default async post => {
                       height: "100%",
                       opacity: 0.08,
                       background: `
-                                                radial-gradient(circle at 25px 25px, #8839ef 2px, transparent 2px),
-                                                radial-gradient(circle at 75px 75px, #8839ef 1px, transparent 1px)
+                                                radial-gradient(circle at 25px 25px, #cba6f7 2px, transparent 2px),
+                                                radial-gradient(circle at 75px 75px, #cba6f7 1px, transparent 1px)
                                             `,
                       backgroundSize: "50px 50px, 25px 25px",
                     },
@@ -101,8 +101,8 @@ export default async post => {
                       height: "100%",
                       opacity: 0.03,
                       background: `
-                                                linear-gradient(90deg, #8839ef 1px, transparent 1px),
-                                                linear-gradient(180deg, #8839ef 1px, transparent 1px)
+                                                linear-gradient(90deg, #cba6f7 1px, transparent 1px),
+                                                linear-gradient(180deg, #cba6f7 1px, transparent 1px)
                                             `,
                       backgroundSize: "60px 60px",
                     },
@@ -189,7 +189,7 @@ export default async post => {
                           width: 60,
                           height: 60,
                           style: {
-                            marginBottom: "20px",
+                            marginBottom: "5px",
                             filter: "drop-shadow(0 4px 8px rgba(136, 57, 239, 0.4))",
                           },
                         },
@@ -223,7 +223,7 @@ export default async post => {
                       alignItems: "center",
                       width: "100%",
                       fontSize: 24,
-                      color: "#8839ef",
+                      color: "#cba6f7",
                       fontWeight: 500,
                       zIndex: 10,
                       position: "relative",
@@ -294,7 +294,7 @@ export default async post => {
     },
     {
       width: 1200,
-      height: 630,
+      height: 640,
       embedFont: true,
       fonts: await loadGoogleFonts(
         post.data.title + post.data.author + SITE.title + "by"
