@@ -12,11 +12,9 @@ tags:
   - python
   - multi-stage
 
-description: "Learn how to speed up your Python dependency management using UV and multi-stage Docker builds. This post covers how we did it."
+description: "Learn how to speed up your Python dependency management using UV and multi-stage Docker builds. This post covers what UV is, how to migrate from pip to UV, and the benefits of using multi-stage builds in Docker for faster deployments."
 ---
 
 ![Post OG Image](/posts/faster-python-dependency-management-with-uv-and-multi-stage-docker-builds/index.png)
 
-## The quick brown fox jumps over the lazy dog
-
-The quick brown fox jumps over the lazy dog. This is a common pangram used to test fonts and keyboards. It contains every letter of the English alphabet at least once, making it a useful tool for checking typography and layout.
+## Table of Contents
