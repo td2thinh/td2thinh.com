@@ -1,6 +1,8 @@
 # My Blog
 
-This is my personal blog built with Astro and Astro Paper theme. You can find the source code on [GitHub](https://github.com/td2thinh/td2thinh.com).
+[<img width="1024" height="464" alt="image" src="https://github.com/user-attachments/assets/80fa2a1a-ed94-4cff-94a1-bb73fb2556e7" />](https://td2thinh.com/)
+
+This is my personal blog built with Astro and Astro Paper theme.
 
 ## Acknowledgements
 
