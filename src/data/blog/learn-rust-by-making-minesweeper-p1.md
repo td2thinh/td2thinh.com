@@ -111,7 +111,7 @@ struct Tile {
 }
 ```
 
-With the tiles define, we need a type to represent the game board, which is a grid of tiles. We can use a 2D vector to represent the grid:
+With the tiles define, we need a type to represent the game board, which is a grid of tiles. We can use a 2D vector to represent the grid of tiles, but for simplicity, I will use a hash map where the key is the `Coord` and the value is the `Tile`. This allows us to easily access and update the tiles in the grid:
 
 ```rust
 use im::HashMap;
